@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "plugins": [{
+            "name": "typescript-tslint-plugin",
+            "configFile": "./tslint.json"
+        }],
+        "resolveJsonModule": true
+    }
+}

@@ -7,3 +7,5 @@ export function goodbye() {
 }
 
 export default hello
+
+export { default as add } from './add'

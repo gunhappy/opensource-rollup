@@ -11,6 +11,7 @@
             "name": "typescript-tslint-plugin",
             "configFile": "./tslint.json"
         }],
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "declaration": true
     }
 }

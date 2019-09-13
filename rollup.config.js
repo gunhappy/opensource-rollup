@@ -8,7 +8,8 @@ export default {
     output: [
         {
             file: pkg.main,
-            format: 'cjs'
+            format: 'cjs',
+            exports: 'named'
         },
         {
             file: pkg.module,
@@ -17,7 +18,8 @@ export default {
         {
             file: pkg.browser,
             format: 'iife',
-            name: 'wongnai'
+            name: 'wongnai',
+            exports: 'named'
         },
     ],
     plugins: [
